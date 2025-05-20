@@ -1,0 +1,8 @@
+# Environment variables
+.env
+
+# Local environment
+./idea/misc.xml
+
+# Local cache
+__pycache__/
