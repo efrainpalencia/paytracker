@@ -1,19 +1,22 @@
 import os
-import time
-import CustomWebDriverManager
+from adp_gui_automation import download_adp_pdf
+from organize_pdfs import organize_paychecks
 
 from dotenv import load_dotenv
+
 load_dotenv()
 
-my_url = os.getenv("ADP_URL")
-download_dir = os.getenv("DOWNLOAD_DIR")
-browser = os.getenv("BROWSER")
+
 
 def main():
+    """
 
-    driver = CustomWebDriverManager.CustomWebDriverManager(my_url, download_dir, browser).create_driver()
-    print("Done")
+    :return:
+    """
 
+    execute = organize_paychecks()
+
+    return execute
 
 if __name__ == "__main__":
     main()

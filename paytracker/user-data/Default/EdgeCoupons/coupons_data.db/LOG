@@ -1,0 +1,6 @@
+2025/05/21-21:51:27.411 6bd8 Reusing MANIFEST C:\dev\mypaymenttracker\paytracker\user-data\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/05/21-21:51:27.413 6bd8 Recovering log #10
+2025/05/21-21:51:27.414 6bd8 Reusing old log C:\dev\mypaymenttracker\paytracker\user-data\Default\EdgeCoupons/coupons_data.db/000010.log 
+2025/05/21-21:51:27.459 1d54 Level-0 table #14: started
+2025/05/21-21:51:27.462 1d54 Level-0 table #14: 670896 bytes OK
+2025/05/21-21:51:27.464 1d54 Delete type=0 #10

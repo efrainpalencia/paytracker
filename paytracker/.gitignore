@@ -1,6 +1,9 @@
 # Environment variables
 .env
 
+# Login credentials
+./playwright/.auth.json
+
 # Local environment
 ./idea/misc.xml
 
